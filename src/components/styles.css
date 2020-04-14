@@ -1,0 +1,30 @@
+.square {
+  width: 80px;
+  height: 80px;
+  font-weight: bold;
+  font-size: 30px;
+  background: lightblue;
+  cursor: pointer;
+  text-align: center;
+  color: red;
+}
+.colorOs {
+  color: blue;
+}
+
+.board-row {
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  justify-content: center;
+}
+
+.status {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.highlight {
+  background: rgba(216, 187, 23, 0.87);
+}
