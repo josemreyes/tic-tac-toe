@@ -1,10 +1,9 @@
 import React from "react";
-import Board from "./components/Board";
 import "./components/styles.css";
-// import { render } from "@testing-library/react";
+import Game from "./components/Game";
 
 function App() {
-  return <Board />; //<Board />;
+  return <Game />;
 }
 
 export default React.memo(App);

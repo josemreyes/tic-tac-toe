@@ -28,3 +28,24 @@
 .highlight {
   background: rgba(216, 187, 23, 0.87);
 }
+.game-container {
+  display: inline-block;
+  /* justify-content: center; */
+  width: 30rem;
+  border: 1px dashed rgba(141, 62, 62, 0.664);
+  padding: 20px auto;
+}
+
+.game-container .btn {
+  display: flex;
+  color: #333;
+  background: lightblue;
+  margin: 20px auto;
+  justify-content: center;
+  padding: 10px auto;
+  cursor: pointer;
+}
+.btn:hover {
+  background: red;
+  color: white;
+}
